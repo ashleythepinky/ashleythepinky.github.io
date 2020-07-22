@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Reset CSS*/
+#wrapper{
+	width: 960px;
+	height: 1151px;
+	margin: 0 auto;
+}
+.header{
+	width: 960px;
+	height: 170px;
+
+}
+.header .top-bar{
+	width: 960px;
+	height: 51px;
+	text-align: right;
+}
+.top-bar img{
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.header .header-main{
+	width: 960px;
+	height: 120px;
+}
+.header-main .logo{
+	width: 343px;
+	height: 120px;
+	float: left;
+}
+.header-main .menu{
+	width: 616px;
+	height: 120px;
+
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	width: 576px;
+	height: 52px;
+	margin-top: 19px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-left: 40px;
+}
+.menu ul li{
+	float: left;
+	width: 100px;
+	height: 30px;
+
+	text-align: center;
+	line-height: 30px;
+	margin-top: 11px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #CCCCCC;
+	transition-duration: 0.2s;
+	font-size: 20px
+}
+.menu ul li a:hover{
+	color: black;
+}
+.content{
+	width: 960px;
+	height: 887px;
+	background: #F800FF;
+}
+.footer{
+	width: 960px;
+	height: 50px;
+	background: #00FF54
+}
+.footer ul{
+	list-style: none;
+	width: 250px;
+	height: 30px;
+	background: pink;
+	margin: 0 auto;
+}
+.footer ul li{
+	float: left;
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	background: red;
+}
